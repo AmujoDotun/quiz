@@ -4,7 +4,9 @@
    <b-container class="bv-example-row">
       <b-row>
       <b-col sm="6" offset="3">
-        <QuestionsBox />
+        <QuestionsBox 
+          :currentQuestion="questions[index]"
+        />
       </b-col>
     </b-row>
    </b-container>
