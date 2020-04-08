@@ -1,7 +1,7 @@
 <template>
   <div>
-   <b-nav>
-    <b-nav-item disabled>Dotun Fancy Game</b-nav-item>
+   <b-nav tabs>
+    <b-nav-item disabled><b>Dotun Fancy Game</b></b-nav-item>
     <b-nav-item disabled>Count 1/4</b-nav-item>
   </b-nav>
   </div>
