@@ -1,8 +1,6 @@
 <template>
-    <div>
+    <div class="question-box-container">
   <b-jumbotron>
-    <template v-slot:header>BootstrapVue</template>
-
     <template v-slot:lead>
       Question goes here
     </template>
