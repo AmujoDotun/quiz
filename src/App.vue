@@ -30,14 +30,14 @@ export default {
     }
   },
   mounted: function(){
-    fetch('https://opentdb.com/api.php?amount=10&category=27&difficulty=medium&type=multiple', {
+    fetch('https://opentdb.com/api.php?amount=10', {
       methods: 'get'
     })
      .then((response) =>{
        return response.json()
      })
       .then((jsonData) =>{
-        this.questions = jsonData.questions
+        this.questions = jsonData.results
       })
   }
 }
